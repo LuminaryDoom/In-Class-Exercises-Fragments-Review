@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="nyc.c4q.fragmentsundaydec3.MainFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:id="@+id/ev_01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:hint="Enter Text to Send"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/button_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/ev_01"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="54dp"
+        android:hint="Send Text" />
+
+</RelativeLayout>
